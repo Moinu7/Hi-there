@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patient Admission Form</title>
+</head>
+<body>
+  <h1 align="center">Patient Admission Form</h1>
+  <form align="center">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br><br>
+    <label for="contact">Contact Number:</label>
+    <input type="tel" id="contact" name="contact" required><br><br>
+
+    <label for="emergency_contact_number">Emergency Contact Number:</label>
+    <input type="tel" id="emergency_contact_number" name="emergency_contact_number" required><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+    <label for="symptoms">Symptoms:</label><br>
+    <textarea id="symptoms" name="symptoms" rows="4" cols="50" required></textarea><br><br>
+
+    <label for="medical_history">Medical History:</label><br>
+    <textarea id="medical_history" name="medical_history" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Submit">         <input type="Reset" value="Reset">
+  </form>
+</body>
+</html>
